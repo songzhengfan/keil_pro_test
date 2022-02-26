@@ -1,0 +1,18 @@
+--cpu Cortex-M7.fp.sp
+"ll_test_proj\startup_stm32f756xx.o"
+"ll_test_proj\main.o"
+"ll_test_proj\gpio.o"
+"ll_test_proj\dma.o"
+"ll_test_proj\usart.o"
+"ll_test_proj\stm32f7xx_it.o"
+"ll_test_proj\stm32f7xx_ll_gpio.o"
+"ll_test_proj\stm32f7xx_ll_dma.o"
+"ll_test_proj\stm32f7xx_ll_usart.o"
+"ll_test_proj\stm32f7xx_ll_rcc.o"
+"ll_test_proj\stm32f7xx_ll_utils.o"
+"ll_test_proj\stm32f7xx_ll_exti.o"
+"ll_test_proj\system_stm32f7xx.o"
+--strict --scatter "LL_TEST_PROJ\LL_TEST_PROJ.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LL_TEST_PROJ.map" -o LL_TEST_PROJ\LL_TEST_PROJ.axf

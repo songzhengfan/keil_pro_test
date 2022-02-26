@@ -1,0 +1,12 @@
+freertos_study_proj\list.o: ..\FreeRTOS\list.c
+freertos_study_proj\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\FreeRTOS.h
+freertos_study_proj\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+freertos_study_proj\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\FreeRTOSConfig.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\projdefs.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\portable.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\deprecated_definitions.h
+freertos_study_proj\list.o: ..\FreeRTOS\portable\RVDS\ARM_CM7\r0p1\portmacro.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\mpu_wrappers.h
+freertos_study_proj\list.o: ..\FreeRTOS\include\list.h
